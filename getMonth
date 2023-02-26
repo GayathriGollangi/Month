@@ -1,0 +1,12 @@
+package DateTime;
+
+import java.time.LocalDate;
+
+public class getMonth {
+	public static void main(String[] args) {
+		System.out.println("Month");
+		LocalDate date = LocalDate.now();
+		int month = date.getMonthValue();
+		System.out.println(month);
+	}
+}
